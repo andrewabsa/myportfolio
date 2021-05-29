@@ -15,3 +15,21 @@ article{
     border-width: .30em;
     border-style: dashed;
 }
+li a:hover{
+    color: white;
+    background-color:red;
+}
+.active{
+    background-color: royalblue;
+    color: white;
+}
+#nav{
+    text-align: center; 
+}
+#nav li{
+    display: inline;
+}
+#nav a {
+    text-decoration: none;
+    padding: 0 30px;
+}
