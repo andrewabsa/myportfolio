@@ -24,7 +24,6 @@ li a:hover{
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 6fr 0.25fr;
     grid-gap: 5px;
-    background:blue;
     grid-template-areas:
       "header"
       "main-content"
@@ -54,3 +53,11 @@ li a:hover{
       text-align: center;
       background: cornsilk;
   }
+@media only screen and (min-device-width: 480px){
+
+}
+@media only screen and (min-device-width: 768px){
+
+}
+@media only screen and (min-width : 1200px) {
+}

@@ -24,6 +24,7 @@ li a:hover{
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 6fr 0.25fr;
     grid-gap: 5px;
+    width: 300px;
     grid-template-areas:
       "b-header"
       "b-main-content"
@@ -42,7 +43,7 @@ li a:hover{
     grid-area: b-main-content;
     text-align: center;
     background: white;
-    height: 3600px;
+    height: 4200ßpx;
 }
 .b-footer{
     grid-area: b-footer;
@@ -52,4 +53,12 @@ li a:hover{
 article{
     font-family: sans-serif;
     font-size: 22px;
+}
+@media only screen and (min-device-width: 480px){
+
+}
+@media only screen and (min-device-width: 768px){
+
+}
+@media only screen and (min-width : 1200px) {
 }

@@ -58,5 +58,12 @@ li a:hover{
 }
 .ampic{
     float: left;
+}
+@media only screen and (min-device-width: 480px){
 
+}
+@media only screen and (min-device-width: 768px){
+
+}
+@media only screen and (min-width : 1200px) {
 }
