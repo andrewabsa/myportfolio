@@ -55,15 +55,8 @@ li a:hover{
   h1{
       font-size: 28px;
       text-decoration: underline;
-  }
-  .quote{
-      float: right;
-      padding-left: 100px;
-      border: red;
-      border-style: groove;
-      border-width: 20px;
 }
 .ampic{
-    position: relative;
-    padding-left: 210px;
+    float: left;
+
 }
