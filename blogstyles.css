@@ -1,6 +1,7 @@
 body{
     background-image: url(greybg.jpeg);
 }
+/**Nav Bar**/
 li a:hover{
     color: white;
     background-color:red;
@@ -19,6 +20,7 @@ li a:hover{
     text-decoration: none;
     padding: 0 30px;
 }
+/**Grid Container**/
 .b-grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -48,11 +50,12 @@ li a:hover{
 .b-footer{
     grid-area: b-footer;
     text-align: center;
-    background: cornsilk;
+    background: grey;
 }
 article{
     font-family: sans-serif;
     font-size: 22px;
+/**Media Breakpoints**/
 }
 @media only screen and (min-device-width: 480px){
 
